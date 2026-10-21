@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Poongu G— Computer Science Student & Developer</title>
+  <meta name="description"
+    content="Portfolio of Maya Chen, a Computer Science student specializing in front-end engineering and applied machine learning." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="site-header">
+    <nav class="nav-wrap">
+      <a href="#home" class="nav-brand">PG<span class="dot">.</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+        <span class="theme-icon" id="themeIcon">🌙</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ HOME / HERO ============ -->
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <p class="hero-eyebrow">Portfolio — 2026</p>
+        <h1 class="hero-name">
+          Poongu<br />
+          G<span class="hero-period">.</span>
+        </h1>
+        <div class="hero-role-wrap">
+          <p class="hero-role">Computer Science student building interfaces & ML tools</p>
+          <svg class="hero-underline" viewBox="0 0 320 14" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M2 9 C 60 2, 120 12, 180 6 S 280 2, 318 8" />
+          </svg>
+        </div>
+        <p class="hero-desc">
+          Third-year student at the University of Washington studying front-end engineering,
+          applied machine learning, and the occasional stubborn CSS bug. I like building things
+          that are fast, accessible, and a little bit delightful.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">See my work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-card" aria-hidden="true">
+        <div class="hero-avatar">PG</div>
+        <ul class="hero-stats">
+          <li><span class="stat-num">12</span><span class="stat-label">Projects shipped</span></li>
+          <li><span class="stat-num">3</span><span class="stat-label">Internships</span></li>
+          <li><span class="stat-num">6</span><span class="stat-label">Hackathon wins</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section about">
+      <div class="section-head">
+        <h2>About</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>
+            I'm a Computer Science student at the University of Washington, expecting to graduate
+            in June 2027. My focus sits at the intersection of front-end engineering and applied
+            machine learning — I care about how systems reason, and just as much about how it feels
+            to actually use them.
+          </p>
+          <p>
+            Outside of coursework, I lead the front-end guild for my university's app development
+            club, mentor first-year students through our CS bridge program, and spend far too much
+            time tweaking my terminal setup. I'm currently looking for a Summer 2027 internship in
+            full-stack or ML engineering.
+          </p>
+        </div>
+
+        <div class="about-facts">
+          <dl>
+            <div class="fact">
+              <dt>Based in</dt>
+              <dd>Seattle, WA</dd>
+            </div>
+            <div class="fact">
+              <dt>Studying</dt>
+              <dd>B.tech Computer Science, University of Washington</dd>
+            </div>
+            <div class="fact">
+              <dt>Graduating</dt>
+              <dd>June 2027</dd>
+            </div>
+            <div class="fact">
+              <dt>Currently</dt>
+              <dd>Software Engineering Intern, seeking Summer 2027</dd>
+            </div>
+            <div class="fact">
+              <dt>Interests</dt>
+              <dd>Front-end systems, applied ML, climbing, film photography</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section skills">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p class="section-sub">Tools and languages I reach for most.</p>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul class="skill-list">
+            <li><span>JavaScript / TypeScript</span>
+              <div class="bar"><span style="width:92%"></span></div>
+            </li>
+            <li><span>Python</span>
+              <div class="bar"><span style="width:88%"></span></div>
+            </li>
+            <li><span>Java</span>
+              <div class="bar"><span style="width:75%"></span></div>
+            </li>
+            <li><span>SQL</span>
+              <div class="bar"><span style="width:70%"></span></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>Front-end</h3>
+          <ul class="skill-list">
+            <li><span>React</span>
+              <div class="bar"><span style="width:90%"></span></div>
+            </li>
+            <li><span>HTML5 / CSS3</span>
+              <div class="bar"><span style="width:95%"></span></div>
+            </li>
+            <li><span>Tailwind CSS</span>
+              <div class="bar"><span style="width:85%"></span></div>
+            </li>
+            <li><span>Figma</span>
+              <div class="bar"><span style="width:78%"></span></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>Back-end & Data</h3>
+          <ul class="skill-list">
+            <li><span>Node.js / Express</span>
+              <div class="bar"><span style="width:82%"></span></div>
+            </li>
+            <li><span>PostgreSQL</span>
+              <div class="bar"><span style="width:76%"></span></div>
+            </li>
+            <li><span>PyTorch</span>
+              <div class="bar"><span style="width:70%"></span></div>
+            </li>
+            <li><span>REST & GraphQL APIs</span>
+              <div class="bar"><span style="width:80%"></span></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <ul class="skill-list">
+            <li><span>Git / GitHub</span>
+              <div class="bar"><span style="width:93%"></span></div>
+            </li>
+            <li><span>Docker</span>
+              <div class="bar"><span style="width:68%"></span></div>
+            </li>
+            <li><span>Jest / Testing Library</span>
+              <div class="bar"><span style="width:74%"></span></div>
+            </li>
+            <li><span>Linux / Bash</span>
+              <div class="bar"><span style="width:79%"></span></div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section projects">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p class="section-sub">A few things I've built recently.</p>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card" style="--accent-card: var(--accent);">
+          <div class="project-tag">Full-stack</div>
+          <h3>StudyLoop</h3>
+          <p>A collaborative spaced-repetition app for study groups, with real-time shared decks and progress tracking.
+            Built for 400+ active students on campus.</p>
+          <ul class="project-stack">
+            <li>React</li>
+            <li>Node.js</li>
+            <li>PostgreSQL</li>
+            <li>WebSockets</li>
+          </ul>
+          <div class="project-links">
+            <a href="#" class="proj-link">Live demo →</a>
+            <a href="#" class="proj-link">Source code →</a>
+          </div>
+        </article>
+
+        <article class="project-card" style="--accent-card: var(--accent-2);">
+          <div class="project-tag">Machine Learning</div>
+          <h3>TrailSense</h3>
+          <p>A computer vision model that classifies hiking trail conditions from trail-cam images, used by a local
+            trail-stewardship nonprofit to prioritize maintenance.</p>
+          <ul class="project-stack">
+            <li>PyTorch</li>
+            <li>FastAPI</li>
+            <li>AWS S3</li>
+            <li>Docker</li>
+          </ul>
+          <div class="project-links">
+            <a href="#" class="proj-link">Case study →</a>
+            <a href="#" class="proj-link">Source code →</a>
+          </div>
+        </article>
+
+        <article class="project-card" style="--accent-card: var(--accent);">
+          <div class="project-tag">Front-end</div>
+          <h3>Palette</h3>
+          <p>An accessibility-first color contrast checker for designers, with live WCAG scoring and a shareable palette
+            export. Featured on a design-tools newsletter.</p>
+          <ul class="project-stack">
+            <li>TypeScript</li>
+            <li>Vite</li>
+            <li>Canvas API</li>
+          </ul>
+          <div class="project-links">
+            <a href="#" class="proj-link">Live demo →</a>
+            <a href="#" class="proj-link">Source code →</a>
+          </div>
+        </article>
+
+        <article class="project-card" style="--accent-card: var(--accent-2);">
+          <div class="project-tag">Hackathon — 1st place</div>
+          <h3>CampusCart</h3>
+          <p>A 24-hour build: a peer-to-peer marketplace for textbooks with automatic price suggestions based on edition
+            and condition. Won Best Use of Data at HackUW.</p>
+          <ul class="project-stack">
+            <li>Next.js</li>
+            <li>Supabase</li>
+            <li>Python</li>
+          </ul>
+          <div class="project-links">
+            <a href="#" class="proj-link">Write-up →</a>
+            <a href="#" class="proj-link">Source code →</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section contact">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p class="section-sub">Have a role, project, or question in mind? I'd love to hear from you.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <ul>
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:poongu@example.com">poongu@example.com</a>
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/" target="_blank" rel="noopener">github.com/poongu</a>
+            </li>
+            <li>
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://linkedin.com/" target="_blank" rel="noopener">linkedin.com/in/mayachen</a>
+            </li>
+            <li>
+              <span class="contact-label">Location</span>
+              <span>Seattle, WA</span>
+            </li>
+          </ul>
+        </div>
+
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+            <span class="form-error" id="nameError"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            <span class="form-error" id="emailError"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me a bit about what you have in mind..."
+              required></textarea>
+            <span class="form-error" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary form-submit">
+            <span id="submitLabel">Send message</span>
+          </button>
+
+          <p class="form-success" id="formSuccess" role="status" aria-live="polite">
+            ✓ Thanks, Poongu! Your message has been sent — I'll get back to you soon.
+          </p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Designed & built by Poongu · <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
